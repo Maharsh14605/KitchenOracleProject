@@ -1,0 +1,32 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+*.db
+.venv/
+venv/
+.env
+.env.*
+staticfiles/
+media/
+
+# Model artifacts & data
+*.joblib
+*.pkl
+sales_predictor_model.joblib
+ingredient_usage_model.joblib
+processed_sales_data.csv
+Weather.csv
+Holiday.csv
+Pizza_Sales.csv
+
+# Node / Vite / Frontend
+node_modules/
+dist/
+build/
+*.map
+
+# macOS system files
+.DS_Store
+
